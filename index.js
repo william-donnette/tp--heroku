@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
     });
 });
 
-app.post('add', function (res, res) {
+app.get('add', function (res, res) {
     var options = {
         method: 'POST',
         url: 'https://tpheroku-9839.restdb.io/rest/recettes',
